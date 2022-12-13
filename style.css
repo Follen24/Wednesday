@@ -1,5 +1,5 @@
 body {
-    background: url(Фото/Bg.svg) no-repeat;
+    background: url(Фото/Bg.svg) no-repeat cover;
     display: flex;
 }
 
