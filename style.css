@@ -1,0 +1,79 @@
+body {
+    background: url(Фото/Bg.svg) no-repeat;
+    display: flex;
+}
+
+.container {
+    width: 1179px;
+    margin: 0 auto;
+}
+
+/* Шапка */
+.header a {
+    text-decoration: none;
+    color: white;
+}
+
+.header {
+    display: flex;
+
+}
+
+.text a {
+    margin-right: 76px;
+    font-size: 32px;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+
+.text {
+    display: flex;
+    margin-left: 150px;
+    margin-top: 50px;
+    opacity: 90%;
+}
+
+.logo {
+    margin-top: 20px;
+}
+
+.h1 {
+    position: absolute;
+}
+
+.text a:hover {
+    opacity: 100%;
+    color: red;
+
+}
+
+/* Центр */
+.center h1 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 52px;
+    margin-top: 60px;
+    display: flex;
+}
+
+.center a {
+    margin-top: 30px;
+}
+
+.center a:hover {
+    opacity: 60%;
+    
+}
+
+/* Низ */
+.footer {
+    margin-bottom: 10px;
+}
+.footer a:hover{
+    opacity: 60%;
+}
+
+.footer a {
+    margin-right: 50px;
+}
